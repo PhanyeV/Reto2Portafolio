@@ -1,0 +1,181 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mi Portafolio | Cursos online</title>
+    <!-- Referencia de la hoja de estilo de Css -->
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/flexbox.css">
+    <!-- Fonte del Proyecto Raleway -->
+</head>
+<body>
+    <!-- Sección del Menú  -->
+	<header class="headerMenu">
+		<div class="container">
+			<h1 class="headerMenu__titulo">
+                <img src="assets\vector.png">
+				<a href="#">Fani Velazquez</a>
+			</h1>
+
+			<nav class="headerMenu__nav">
+				<a class="headerMenu__nav__link" href="#sobre mi">Sobre mi</a>
+				<a class="headerMenu__nav__link" href="#skills">Skills</a>
+				<a class="headerMenu__nav__link" href="#hobbies">Hobbies</a>
+				<a class="headerMenu__nav__link" href="#formacion">Formación</a>
+                <a class="headerMenu__nav__link" href="#proyectos">Proyectos</a>
+				<a class="headerMenu__nav__link headerMenu__nav__link__app" href="#contacto">Contacto</a>
+			</nav>
+		</div>
+
+	</header>
+    <!-- Sección del Title-->
+    <section class="title">
+        <h2 class="title__bio">Hola, soy Fani Velazquez y construyo páginas web</h2>
+        <div class="title__subsection">
+            <p>Soy comunicologa por la UNAM, actualmente estoy</p>
+            <p>estudiando Ingeniería en Sistemas Computacionales</p>
+            <p>y participando del proyecto Oracle ONE Alura Latam.</p>
+        </div> 
+    </section>
+    <!-- Pon los enlaces de tus redes sociales favoritas -->
+
+    <main class="redesSociales">
+		<div>
+			<nav>
+				<ul class="contenidoPrincipal__redes">
+                    <li class="title__network__item"><img class="redes" src="assets\github.png"></li>
+                    <li class="title__network__item"><img class="redes" src="assets\Linkedin.png"></li>
+                    <li class="title__network__item"><img class="redes" src="assets\Instagram.jpg"></li>
+                    <li class="title__network__item"><img class="redes" src="assets\CV.png"></li>
+				</ul>
+			</nav>
+		</div>
+    <section class="imagen">
+        <div class="contenido__bio">
+                <img src="assets\Foto.jpeg" class="imagen__bio">
+        </div>
+    </section>
+    <br>
+<!-- Sección sobre mi -->
+    <section class="about" id="sobre mi">
+        <div class="about__container">
+            <h3 class="about__title">Sobre mi</h3>
+            <p class="about__paragraph">Soy una persona proactiva, excelente compañera de equipo, organizada y responsable. Disfruto de aprender cosas nuevas, en constante capacitación por lo que mi objetivo es un puesto desafiante y dinámico donde poder
+                compartir mi experiencia y a su vez sumar nuevos conocimientos.</p>
+            
+        <!-- Si quieres, pon tú firma acá! -->
+        <img src="assets\signature.png" class="firma">
+        </div>
+    </section>
+<!-- Sección de Skills -->
+    <section class="skills" id="skills">
+        <h4 class="skills__title">Skills</h4>
+            <div>
+                <ul class="skills__box">
+                    <li><img class="skills__img" src="assets\htlm.png"></li>
+                    <li class="skills__name"> HTML 5</li>
+                    <li><img class="skills__img" src="assets\js_icon.png"></li>
+                    <li class="skills__name">Javascript</li>
+                    <li><img class="skills__img" src="assets\php_icon.png"></li>
+                    <li class="skills__name">PHP</li>
+                    <li><img class="skills__img" src="assets\nodejs_icon.png"></li>
+                    <li class="skills__name">Node JS</li>
+                    <li><img class="skills__img" src="assets\react_icon.png"> </li>
+                    <li class="skills__name">React</li>
+                    <li><img class="skills__img" src="assets\css_icon.png"> </li>
+                    <li class="skills__name">CSS</li>
+                </ul>
+            </div>
+    </section>
+
+<!-- Sección de Hobbies -->
+    <section class="hobbies" id="hobbies">
+        <h5 class="hobbies__title">Hobbies</h5>
+        <br>
+            <div>
+                <ul class="hobbies__box">
+                    <li><img class="hobbies__img" src="assets\Correr.png"></li>
+                    <li class="hobbies__name"> Correr</li>
+                    <li><img class="hobbies__img" src="assets\Leer.png" alt=""></li>
+                    <li class="hobbies__name">Leer</li>
+                    <li><img class="hobbies__img" src="assets\Musica.png" alt=""></li>
+                    <li class="hobbies__name">Oir música</li>
+                    <li><img class="hobbies__img" src="assets\VerSeries.png" alt=""></li>
+                    <li class="hobbies__name">Ver series</li>
+                    <li><img class="hobbies__img" src="assets\Cocinar.png" alt=""> </li>
+                    <li class="hobbies__name">Cocinar</li>
+                    <li><img class="hobbies__img" src="assets\TomarFotos.png" alt=""> </li>
+                    <li class="hobbies__name">Tomar fotos</li>
+                </ul>
+            </div>
+    </section>
+<!-- Sección de Formación académica -->
+    <section class="academic" id="formacion">
+        <h6 class="academic__title">Formación académica</h6>
+        <br>
+            <div>
+                <ul class="academic__courses__box">
+                    <li><img class="academic__courses__img" src="assets\UNAM_logo.png"></li>
+                    <li class="academic__courses__title">Ciencias de la Comunicación</li>
+                    <br>
+                    <li class="academic__courses__subtitle">FCPyS - UNAM</li>
+                    <li><img class="academic__courses__img" src="assets\alura_logo.png"></li>
+                    <li class="academic__courses__title">Front-End</li>
+                    <br>
+                    <li class="academic__courses__subtitle">Oracle ONE - Alura</li>
+                    <li><img class="academic__courses__img" src="assets\utel_logo.png"></li>
+                    <li class="academic__courses__title">Ingeniería en Sistemas Computacionales</li>
+                    <br>
+                    <li class="academic__courses__subtitle">En curso - UTEL</li>
+                </ul>
+            </div>
+    </section>
+    <br>
+
+<!-- Sección de Experiencia Profesional/Proyectos-->
+    <section class="experience" id="proyectos">
+        <h6 class="experience__title">Proyectos</h6>
+        <br>
+            <div>
+                <ul class="experiencie__box">
+                    <li><img class="experience__img" src="assets\secretcode_print.png"></li>
+                    <li class="experience__text">Encriptador de texto</li>
+                    <li class="experience__subtitle">Challenge Alura Codificador</li>
+                    <li><img class="experience__img" src="assets\Mini_Alura.png"></li>
+                    <li class="experience__text">Mini Alura</li>
+                    <li class="experience__subtitle">Nuestros Cursos</li>
+                </ul>
+            </div>
+    </section>
+    <br>
+<!-- Sección de Contacto -->
+    <section class="formcontacto" id="contacto">
+        <h6 class="formcontato__title">Contacto</h6>
+            <div>
+                <ul class="formcontacto__box">
+                    <li><img class="formcontacto__img" src="assets\contact_image.png"></li>
+                    <li class="formcontato__subtext">¿Quieres contactarme?</li>
+                    <li class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</li>
+                <br>
+                </ul>
+                <br>
+                <form class="formcontacto__form" name="form">
+                    <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre">
+                    <input class="formcontato__input" type="email" name="email" placeholder="E-mail">
+                    <input class="formcontato__input" type="text" name="asunto" placeholder="Assunto">
+                    <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje"></textarea>
+                    <button type="submit" class="formcontato__botao">Enviar mensaje</button>
+            </form>
+            </div>
+    </section>
+    <br>
+    <br>
+    <footer class="footer__box">
+        <img class="footer__img"  src="assets/Footer.PNG">
+        <p class="copyright">&copy Copyright Fani Velazquez - 2023</p>
+    </footer>
+    <br>
+    <br>
+</html>
